@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #BCAAAA;
+        padding-bottom: 10px;
+
+    }
+
+    li:hover {
+        color: #EF400F;
+        cursor: pointer;
+        border-bottom: 1px solid #EF400F;
+        padding-bottom: 10px;
+
+    }
+
+    .logo {
+        font-size: 36px;
+        font-weight: 700;
+        color: rgb(5, 5, 80);
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        button {
+            padding: 12px 17px;
+            background: transparent;
+            border: 3px solid #EF400F;
+            border-radius: 20px;
+            color: #EF400F;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+}
+
+header {
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+    border-bottom: 1px solid #BCAAAA;
+}
+
+
+
+main {
+    padding-top: 60px;
+    padding-bottom: 39px;
+    background: #F5F5F5;
+}
+
+.main-nav {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        color: #0D0C5C;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+
+    .input-wrap input {
+
+        background: #000;
+        color: white;
+        padding: 17px 21px;
+        width: 386px;
+        margin-right: 22px;
+        border-radius: 20px;
+        border: none;
+        font-size: 24px;
+    }
+
+    .input-wrap button {
+        padding: 15px 32px;
+        border: none;
+        color: white;
+        background: #0D0D5B;
+        border-radius: 20px;
+        font-size: 24px;
+    }
+
+    #history {
+        color: #EF400F;
+    }
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 35px;
+    margin-top: 117px;
+}
+
+
+.card {
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    width: 290px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 11px 0 24px 0;
+}
+
+
+
+.coin {
+    display: block;
+    margin: 17px 0 34px;
+}
+
+
+
+
+
+.footer {
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer div {
+    flex: 1;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer img {
+    width: 118px;
+    height: 32px;
+}
